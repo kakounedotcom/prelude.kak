@@ -18,3 +18,7 @@ kak_escape() {
   done
   printf "${KAK_ESCAPE_EOF:-\n}"
 }
+
+kak_escape_partial() {
+  KAK_ESCAPE_EOF=' ' kak_escape "$@"
+}
