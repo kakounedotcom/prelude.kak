@@ -16,5 +16,5 @@ kak_escape() {
       esac
     done
   done
-  printf '\n'
+  printf "${KAK_ESCAPE_EOF:-\n}"
 }
