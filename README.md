@@ -25,7 +25,7 @@ The resulted text should be used unquoted and is not intended for use in double 
 
 ``` kak
 evaluate-commands %sh{
-  . "$kak_opt_prelude"
+  . "$kak_opt_prelude_path"
   kak_escape evaluate-commands -try-client "$kak_client" 'echo Tchou' | kak -p "$kak_session"
 }
 ```

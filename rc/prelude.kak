@@ -1,7 +1,7 @@
-declare-option -hidden str prelude_path %sh(dirname "$kak_source")
+declare-option -hidden str prelude_plugin_path %sh(dirname "$kak_source")
 
 provide-module prelude %{
-  declare-option -docstring 'Path to the prelude of shell blocks' str prelude "%opt{prelude_path}/prelude.sh"
+  declare-option -docstring 'Path to the prelude of shell blocks' str prelude_path "%opt{prelude_plugin_path}/prelude.sh"
 }
 
 require-module prelude
