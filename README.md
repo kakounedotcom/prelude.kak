@@ -6,6 +6,10 @@ Prelude of shell blocks for [Kakoune].
 
 Add [`prelude.kak`](rc/prelude.kak) to your autoload or source it manually.
 
+``` kak
+require-module prelude
+```
+
 ## Usage
 
 ```
