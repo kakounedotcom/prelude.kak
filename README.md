@@ -1,3 +1,9 @@
+# Archived
+
+**prelude.kak** has been replaced by [kakoune.cr].
+
+[kakoune.cr]: https://github.com/alexherbo2/kakoune.cr
+
 # prelude.kak
 
 Prelude of shell blocks for [Kakoune].
